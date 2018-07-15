@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#F4A460"
+        android:text="Numbers"
+        android:id="@+id/numbers"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#cccccc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#8DB600"
+        android:text="Family Members"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/family"
+        android:textColor="#cccccc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#800080"
+        android:text="colors"
+        android:id="@+id/color"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#cccccc"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#43b7ff"
+        android:text="Pharses"
+        android:id="@+id/pharses"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#cccccc"/>
+
+
+</LinearLayout>
